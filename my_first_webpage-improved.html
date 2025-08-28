@@ -1,0 +1,284 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>My First Webpage</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="This is my first HTML page.">
+        <meta name="keywords" content="HTML, beginner, web development">
+        <meta name="author" content="Airesh Shine A. Abcede">
+        <style>  
+            .container1 {
+            display: flex;
+            gap: 100px;
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  
+            }
+
+            .box {
+            border: 2px solid black;
+            padding: 50px;
+            width: 500px;
+            border-radius: 10px;
+            background-color: #ffffff5d;
+            }
+
+            video, audio, img {
+                display: block;
+                margin: 10px auto;
+            }
+
+            h2, h6 {
+                text-align: center;
+                font-style: italic;
+            }
+            
+            body { font-family: Arial, sans-serif; background-color: #f5f5f5; }
+            h1 { color: #000000; text-align: center; }
+            p { line-height: 1; }
+            .highlight { background-color: rgb(167, 221, 135); }
+
+            table, form {
+                width: 100%;
+                margin-top: 20px;
+                text-align: center;
+                background-color: rgba(255, 255, 255, 0.788);
+            }
+    
+            .contact-box {
+                max-width: 500px;
+                margin: 50px auto;
+                background-color: #ffffff;
+                border: 1px solid #000;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            }
+
+            .videoborder {
+                width: 100%;
+                max-width: 600px;
+                height: auto;
+                border: 2px solid #333;
+            }
+        </style>
+        
+        <script>
+            function greet() {
+                alert("Hello! Welcome to my first webpage. ♡")
+            }
+        </script>
+    </head>
+    <body onload="greet()" style="background-image: url('shine.jpg'); background-size: cover; background-attachment: fixed;">
+        <h1 style="text-align: center;">Welcome to My First Webpage</h1><hr>
+        <h3 style="text-align: center;">This is for <b>IT55 - Web Systems and Technologies 1</b> course subject. This is our <i>Laboratory Activity 1.1</i></h3>
+        <div class="container1">
+        <div class="box">
+            <h2 style="text-align: center;">My Favorite Hobbies</h2>
+            <ul type="circle">
+                <li>Spending time with my cats</li>
+                <li>Listening and vibing to music</li>
+                <li>Playing with my favorite video game</li>
+                <li>Do some housechores</li>
+                <li>Reading some books when I feel like it.</li>
+            </ul>   
+        </div>
+        
+        <div class="box">
+        <h2>The Thing I Usually Do in HoYoLab</h2>
+            <ol type="a">
+                <li>Visit Genshin Impact Daily Check-In</li>
+                <li>Enter Teyvat Interactive Map</li>
+                <li>Browse HoYoWiki</li>
+                <li>Redeem Rewards</li>
+            </ol> 
+        <p class="highlight">Visit <a href="https://www.hoyolab.com/home" target="_blank" rel="noopener noreferrer">HoYoLab</a> for more info.</p>
+        </div>
+    </div>
+
+        <div class="contact-box" style="border:1px solid #000; padding:10px; margin-top:10px; background-color: #ffffff55;">
+        <h2>My Top Artists in Spotify</h2>
+        <ol>
+            <li>Taylor Swift</li>
+            <li>Tomorrow x Together</li>
+            <li>Huntr/x</li>
+            <li>Niki</li>
+            <li>Lauv</li>
+        </ol>
+        <!-- This is a comment: The above lists show unordered and ordered lists -->
+        </div>
+
+        <div class="contact-box" style="border:1px solid #000; padding:10px; margin-top:10px; background-color: #ffffff55;">
+        <h2 style="text-align: center;">My Favorite Song</h2>
+        <img src="albumcover.jpg" alt="Album Cover" width="300" style="border:2px solid #000; border-radius:10px;">
+        <p style="text-align: center;"><b>&#9835; My favorite song is "Iris" by Goo Goo Dolls. &#9835;</b><br>It's a beautiful song that resonates with me deeply.</p>
+        <audio controls>
+            <source src="Iris.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        </div>
+
+        <div class="contact-box" style="border:1px solid #000; padding:10px; margin-top:10px; background-color: #ffffff55;">
+        <h2>My Favorite Pulling Session</h2>
+        <video class="videoborder" width="320" height="240" controls>
+            <source src="pulledxiao.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+            <p style="text-align: center;"><b>Pulling for one of my favorite character :3</b></p>
+        </div>
+
+
+        <div class="contact-box" style="border:1px solid #000; padding:10px; margin-top:10px; background-color: #ffffff55;">
+        <h2 style="text-align: center;">My Favorite Picture</h2>
+        <img src="withmypapa.jpg" alt="Me with my father" width="300" style="border:2px solid #000; border-radius:10px;">
+        <p style="text-align: center;" class="highlight"><b>This is a picture of me with my father. I love him so much! ♡</b></p>
+        </div>
+
+        <div style="border:1px solid #000; padding:10px; margin-top:10px; text-align: center; background-color: #ffffff88;">
+            <p>To the <b>stars</b> who <span style="color: purple;">listened;</span> and <span style="font-weight:bold;">dreams</span> that have been <b>answered</b>.</p>
+        </div><br><br><br>
+
+
+        </table>
+        <h2>Class Schedule</h2>
+        <table border="5" cellpadding="5">
+            <tr>
+                <th>Day</th>
+                <th>Subject</th>
+                <th>Type</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td rowspan="4"><b>Monday</b></td>
+                <td>Web Systems and Technologies 1</td>
+                <td>Lec</td>
+                <td>10:00 AM - 11:30 AM</td>
+            </tr>
+            <tr>
+                <td>Environmental Science</td>
+                <td>Lec</td>
+                <td>12:00 PM - 1:00 PM</td>
+            </tr>
+            <tr>
+                <td>Computer Programming 3</td>
+                <td>Lab</td>
+                <td>1:00 PM - 4:00 PM</td>
+            </tr>
+            <tr>
+                <td>Data Structures and Algorithms</td>
+                <td>Lec</td>
+                <td>4:00 PM - 6:00 PM</td>
+            </tr>
+            <tr>
+                <td rowspan="4"><b>Tuesday</b></td>
+                <td>Science, Technology, and Society</td>
+                <td>Lec</td>
+                <td>7:00 AM - 8:30 AM</td>
+            </tr>
+            <tr>
+                <td>Fundamentals of Networking</td>
+                <td>Lec</td>
+                <td>9:00 AM - 10:00 AM</td>
+            </tr>
+            <tr>
+                <td>Computer Programming 3</td>
+                <td>Lec</td>
+                <td>10:00 AM - 11:00 AM</td>
+            </tr>
+            <tr>
+                <td>Computer Architecture</td>
+                <td>Lec</td>
+                <td>4:00 PM - 6:00 PM</td>
+            </tr>
+            <tr>
+                <td rowspan="5"><b>Wednesday</b></td>
+                <td>PATH-Fit 3</td>
+                <td>Lec</td>
+                <td>7:00 AM - 9:00 AM</td>
+            </tr>
+            <tr>
+                <td>Web Systems and Technologies 1</td>
+                <td>Lec</td>
+                <td>10:00 AM - 11:00 AM</td>
+            </tr>
+            <tr>
+                <td>Environmental Science</td>
+                <td>Lec</td>
+                <td>12:00 PM - 1:00 PM</td>
+            </tr>
+            <tr>
+                <td>Fundamentals of Networking</td>
+                <td>Lab</td>
+                <td>1:00 PM - 4:00 PM</td>
+            </tr>
+            <tr>
+                <td>Computer Architecture</td>
+                <td>Lab</td>
+                <td>4:00 PM - 7:00 PM</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Thursday</td>
+                <td>Science, Technologies, and Society</td>
+                <td>Lec</td>
+                <td>7:00 AM - 8:30 AM</td>
+            </tr>
+            <tr>
+                <td>Fundamentals of Networking</td>
+                <td>Lec</td>
+                <td>9:00 AM - 10:00 AM</td>
+            </tr>
+            <tr>
+                <td>Web Systems and Technologies 1</td>
+                <td>Lab</td>
+                <td>1:00 PM - 4:00 PM</td>
+            </tr>
+        <tr>
+                <td rowspan="3">Friday</td>
+                <td>Data Structures and Algorithms</td>
+                <td>Lab</td>
+                <td>7:00 AM - 10:00 AM</td>
+            </tr>
+            <tr>
+                <td>Computer Programming 3</td>
+                <td>Lec</td>
+                <td>10:00 AM - 11:00 AM</td>
+            </tr>
+            <tr>
+                <td>Environmental Science</td>
+                <td>Lec</td>
+                <td>12:00 PM - 1:00 PM</td>
+            </tr>
+        </table>
+
+    <br><br><br>
+
+    </style>
+    </head>
+
+    <!-- This is a comment: The above lists show my class schedule for the first semester -->
+
+    <br><br><br>
+    <div class="contact-box" style="border:1px solid #000; padding:10px; margin-top:5px; background-color: #f5f5f5; border-radius:10px;">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br><br>
+
+            <input type="submit" value="Send">
+        </form>
+    </div><br><br>
+
+        <footer style="text-align: center; margin-top: 20px;">
+            <p>&copy; 2025 Airesh Shine A. Abcede<br>
+            BSIT2A - Laboratory Activity 1.1</p>
+        </footer>
+    </body>
+    </html>
